@@ -30,9 +30,7 @@
 .conteiner_small {
   width: 768px;
 }
-.header__image_color_purple {
-  background: url(../img/header-image-purple.jpg) no-repeat center center;
-}
+
 .image__color {
   position: absolute;
   background: #e0b7b5;
@@ -69,10 +67,8 @@
 .list__item:last-child .item__link {
   margin: 0;
 }
-.list__item_color_purple:hover .item__link {
-  color: #9b59b6;
-}
-.list__item_color_purple:active .item__link {
+
+.list__item:active .item__link {
   text-decoration: underline;
 }
 .header__caption {
@@ -125,8 +121,5 @@
   font-size: 24px;
   color: #ffffff;
   text-align: center;
-}
-.btn_color_purple {
-  background-color: #9b59b6;
-  border-color: rgba(155, 127, 182, 0.59);
+  text-decoration: none;
 }

@@ -1,0 +1,10 @@
+.header__image_color_purple {
+  background: url(../img/header-image-purple.jpg) no-repeat center center;
+}
+.list__item_color_purple:hover .item__link {
+  color: #9b59b6;
+}
+.btn_color_purple {
+  background-color: #9b59b6;
+  border-color: rgba(155, 127, 182, 0.59);
+}
