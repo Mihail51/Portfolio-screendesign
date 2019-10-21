@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('Quicksand-Regular.eot');
+    src: url('Quicksand-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Quicksand-Regular.woff2') format('woff2'),
+        url('Quicksand-Regular.woff') format('woff'),
+        url('Quicksand-Regular.ttf') format('truetype'),
+        url('Quicksand-Regular.svg#Quicksand-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rokkitt';
+    src: url('Rokkitt.eot');
+    src: url('Rokkitt.eot?#iefix') format('embedded-opentype'),
+        url('Rokkitt.woff2') format('woff2'),
+        url('Rokkitt.woff') format('woff'),
+        url('Rokkitt.ttf') format('truetype'),
+        url('Rokkitt.svg#Rokkitt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Bold.eot');
+    src: url('MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MyriadPro-Bold.woff2') format('woff2'),
+        url('MyriadPro-Bold.woff') format('woff'),
+        url('MyriadPro-Bold.ttf') format('truetype'),
+        url('MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Cond.eot');
+    src: url('MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),
+        url('MyriadPro-Cond.woff2') format('woff2'),
+        url('MyriadPro-Cond.woff') format('woff'),
+        url('MyriadPro-Cond.ttf') format('truetype'),
+        url('MyriadPro-Cond.svg#MyriadPro-Cond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro-Regular.eot');
+    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('MyriadPro-Regular.woff2') format('woff2'),
+        url('MyriadPro-Regular.woff') format('woff'),
+        url('MyriadPro-Regular.ttf') format('truetype'),
+        url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
