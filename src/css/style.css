@@ -123,3 +123,44 @@
   text-align: center;
   text-decoration: none;
 }
+
+/* INRODUCTION */
+.introduction__wrap {
+  width: 100%;
+  min-height: 820px;
+  padding: 153px 0 0;
+}
+.introduction__headline {
+  font-family: "MyriadPro-Bold";
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.58px;
+  text-align: center;
+}
+.introduction__description {
+  font-family: "MyriadPro-Regular";
+  font-family: Myriad Pro;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.61;
+  letter-spacing: -0.29px;
+  text-align: center;
+  color: #95a5a6;
+  margin: 55px 0 75px;
+}
+.introduction__skills {
+  width: 100%;
+  min-height: 305px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.introduction__skill {
+  width: 255px;
+  height: inherit;
+}
