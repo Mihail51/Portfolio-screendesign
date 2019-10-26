@@ -44,8 +44,13 @@
   width: 100%;
   min-height: 17px;
   margin-bottom: 153px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .list__item {
@@ -76,6 +81,7 @@
   height: 100px;
   padding: 0 80px;
   text-align: center;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .caption__title {
@@ -112,6 +118,7 @@
   bottom: -100%;
   margin-bottom: 28.5px;
   border: 6px solid;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Rokkitt";
   font-weight: normal;
@@ -129,6 +136,8 @@
   width: 100%;
   min-height: 820px;
   padding: 153px 0 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .introduction__headline {
   font-family: "MyriadPro-Bold";
@@ -156,11 +165,113 @@
 .introduction__skills {
   width: 100%;
   min-height: 305px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  text-align: center;
 }
 .introduction__skill {
   width: 255px;
-  height: inherit;
+  height: 320px;
+  text-align: center;
+  margin-bottom: 68px;
+  overflow: hidden;
+}
+.skill__heading {
+  font-family: "MyriadPro-Bold";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  margin: 31px auto;
+}
+.skill__text {
+  font-family: "MyriadPro-Regular";
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.93;
+  letter-spacing: -0.24px;
+  text-align: justify;
+  color: #95a5a6;
+}
+.introduction__line,
+.portfolio__line {
+  width: 960px;
+  height: 1px;
+  background-color: #e4e8e8;
+  border: none;
+}
+
+/* PORTFOLIO */
+.portfolio__gallery {
+  display: block;
+  position: relative;
+  width: 100%;
+  min-height: 780px;
+  margin: 74px auto;
+  overflow: hidden;
+}
+.portfolio__slides {
+  width: 334%;
+  height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.portfolio__slide {
+  display: block;
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 25px 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.portfolio__slide_nomber_1,
+.portfolio__slide_nomber_7 {
+  margin-left: 0;
+}
+.portfolio__slide_nomber_6,
+.portfolio__slide_nomber_12 {
+  margin-right: 0;
+}
+.portfolio__image {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.slide__btn {
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  right: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../img/icons/Search-icon.png) no-repeat center center;
+}
+.slide__line {
+  width: 100%;
+  height: 6px;
+  border: none;
+}
+.portfolio__description {
+  width: 100%;
+  height: 90px;
 }

@@ -1,5 +1,6 @@
 .header__image_color_purple {
-  background: url(../img/header-image-purple.jpg) no-repeat center center;
+  background: url(../img/header-image-purple.jpg) no-repeat center center
+    #e74c3c;
 }
 .list__item_color_purple:hover .item__link {
   color: #9b59b6;
@@ -8,6 +9,63 @@
   background-color: #9b59b6;
   border-color: rgba(155, 127, 182, 0.59);
 }
-.introduction__headline_color_purple {
+.introduction__headline_color_purple,
+.skill__heading_color_purple,
+.portfolio__description_color_purple {
   color: #9b59b6;
+}
+.skill__image_color_purple {
+  filter: hue-rotate(0);
+}
+.portfolio__image_nomber_1 {
+  background: url(../img/portfolio-image1-purple.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_2 {
+  background: url(../img/portfolio-image2-purple.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_3 {
+  background: url(../img/portfolio-image1-turquoise.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_4 {
+  background: url(../img/portfolio-image2-turquoise.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_5 {
+  background: url(../img/portfolio-image1-red.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_6 {
+  background: url(../img/portfolio-image1-red.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_7 {
+  background: url(../img/portfolio-image3-purple.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_8 {
+  background: url(../img/portfolio-image4-purple.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_9 {
+  background: url(../img/portfolio-image3-turquoise.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_10 {
+  background: url(../img/portfolio-image4-turquoise.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_11 {
+  background: url(../img/portfolio-image3-red.jpg) no-repeat center center
+    #9b59b6;
+}
+.portfolio__slide_nomber_12 {
+  background: url(../img/portfolio-image4-red.jpg) no-repeat center center
+    #9b59b6;
+}
+.slide__line_color_purple {
+  color: #9b59b6;
+  opacity: 0.6;
 }
