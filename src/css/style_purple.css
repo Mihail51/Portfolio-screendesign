@@ -10,8 +10,7 @@
   border-color: rgba(155, 127, 182, 0.59);
 }
 .introduction__headline_color_purple,
-.skill__heading_color_purple,
-.portfolio__description_color_purple {
+.skill__heading_color_purple {
   color: #9b59b6;
 }
 .skill__image_color_purple {
@@ -68,4 +67,14 @@
 .slide__line_color_purple {
   color: #9b59b6;
   opacity: 0.6;
+  display: none;
+}
+.portfolio__description_color_purple,
+.slide__line_color_purple {
+  background: #9b59b6;
+  display: none;
+}
+.portfolio__slide:hover .portfolio__description_color_purple,
+.slide__line_color_purple {
+  display: block;
 }
