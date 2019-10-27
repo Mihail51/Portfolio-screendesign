@@ -323,3 +323,36 @@
 .portfolio__slide:hover .portfolio__image_color {
   display: none;
 }
+.portfolio__slide:hover {
+  background-position-y: bottom;
+}
+.portfolio__gallery_swtch_1:checked
+  ~ .portfolio__slide_controls
+  .portfolio__slide_label2,
+.portfolio__gallery_swtch_2:checked
+  ~ .portfolio__slide_controls
+  .portfolio__slide_label3,
+.portfolio__gallery_swtch_3:checked
+  ~ .portfolio__slide_controls
+  .portfolio__slide_label1 {
+  display: inline-block;
+  width: 218px;
+  height: 57px;
+  margin: 75px auto;
+  background: url(../img/icons/Arrow.png) no-repeat center right #9b59b6;
+}
+.portfolio__gallery_swtch_1:checked
+  ~ .portfolio__slide_active
+  .portfolio__slide_label2,
+.portfolio__gallery_swtch_2:checked
+  ~ .portfolio__slide_active
+  .portfolio__slide_label3,
+.portfolio__gallery_swtch_3:checked
+  ~ .portfolio__slide_active
+  .portfolio__slide_label1 {
+  display: inline-block;
+  width: 218px;
+  height: 57px;
+  margin: 75px auto;
+  background: url(../img/icons/Arrow.png) no-repeat center right #9b59b6;
+}
