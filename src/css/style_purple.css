@@ -65,16 +65,16 @@
     #9b59b6;
 }
 .slide__line_color_purple {
-  color: #9b59b6;
+  /* color: #9b59b6; */
   opacity: 0.6;
-  display: none;
+  /* display: none; */
 }
 .portfolio__description_color_purple,
 .slide__line_color_purple {
   background: #9b59b6;
-  display: none;
+  /* display: none; */
 }
-.portfolio__slide:hover .portfolio__description_color_purple,
+/* .portfolio__slide:hover .portfolio__description_color_purple,
 .slide__line_color_purple {
   display: block;
-}
+} */
