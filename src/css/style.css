@@ -267,7 +267,7 @@
   background: url(../img/icons/Search-icon.png) no-repeat center center;
 }
 .slide__line {
-  /* display: none; */
+  display: none;
   position: absolute;
   width: 100%;
   height: 6px;
@@ -277,7 +277,7 @@
   opacity: 0.6;
 }
 .portfolio__description {
-  /* display: none; */
+  display: none;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -307,17 +307,9 @@
   text-align: left;
   color: #6b3f7d;
 }
-.portfolio__holder {
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 96px;
-  bottom: 0;
-}
-.portfolio__slide:hover .slide__btn {
-  display: block;
-}
-.portfolio__slide:hover .portfolio__holder {
+.portfolio__slide:hover .slide__btn,
+.slide__line,
+.portfolio__description {
   display: block;
 }
 .portfolio__slide:hover .portfolio__image_color {
