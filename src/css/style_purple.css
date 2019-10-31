@@ -76,3 +76,7 @@
 .slide__text_color_purple {
   color: #6b3f7d;
 }
+.portfolio__slide_controls,
+.portfolio__slide_active {
+  background: url(../img/icons/Arrow.png) no-repeat 157px center #9b59b6;
+}
