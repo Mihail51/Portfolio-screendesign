@@ -16,7 +16,9 @@
 .skill__image_color_purple {
   filter: hue-rotate(0);
 }
-.portfolio__image_nomber_1 {
+
+/* PORTFOLIO */
+.portfolio__slide_nomber_1 {
   background: url(../img/portfolio-image1-purple.jpg) no-repeat center center
     #9b59b6;
 }

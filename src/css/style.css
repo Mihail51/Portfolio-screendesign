@@ -318,3 +318,6 @@
 .portfolio__slide:hover .portfolio__image_color {
   display: none;
 }
+.portfolio__slide:hover {
+  background-position-y: bottom;
+}
