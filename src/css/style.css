@@ -8,7 +8,7 @@
   display: block;
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 449px;
   padding-top: 58px;
   background: #e74c3c;
 }
@@ -30,6 +30,9 @@
 .conteiner_small {
   width: 768px;
 }
+.conteiner_small_header {
+  height: 280px;
+}
 
 .image__color {
   position: absolute;
@@ -43,7 +46,7 @@
 .nav__inner {
   width: 100%;
   min-height: 17px;
-  margin-bottom: 153px;
+  margin-bottom: 145px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +67,7 @@
   font-size: 19px;
   line-height: normal;
   letter-spacing: 0.95px;
-  margin-right: 32px;
+  margin-right: 27px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
@@ -78,7 +81,7 @@
 }
 .header__caption {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   padding: 0 80px;
   text-align: center;
   -webkit-box-sizing: border-box;
@@ -88,7 +91,7 @@
   font-family: "Rokkitt";
   font-weight: normal;
   font-style: normal;
-  line-height: normal;
+  line-height: 60px;
   letter-spacing: -0.96px;
   font-size: 60px;
   color: #ffffff;
@@ -103,7 +106,7 @@
   font-family: "Quicksand";
   font-weight: normal;
   font-style: normal;
-  line-height: normal;
+  line-height: 44px;
   font-size: 22px;
   letter-spacing: -0.35px;
   color: #ffffff;
@@ -115,8 +118,8 @@
   height: 57px;
   left: 50%;
   margin-left: -109px;
-  bottom: -100%;
-  margin-bottom: 28.5px;
+  bottom: 0;
+  margin-bottom: -28.5px;
   border: 6px solid;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -129,13 +132,14 @@
   color: #ffffff;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 /* INRODUCTION */
 .introduction__wrap {
   width: 100%;
   min-height: 820px;
-  padding: 153px 0 0;
+  padding: 144px 0 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -148,6 +152,7 @@
   line-height: normal;
   letter-spacing: -0.58px;
   text-align: center;
+  text-transform: uppercase;
 }
 .introduction__description {
   font-family: "MyriadPro-Regular";
@@ -160,7 +165,7 @@
   letter-spacing: -0.29px;
   text-align: center;
   color: #95a5a6;
-  margin: 55px 0 75px;
+  margin: 40px 11px 70px;
 }
 .introduction__skills {
   width: 100%;
@@ -177,7 +182,7 @@
 }
 .introduction__skill {
   width: 255px;
-  height: 320px;
+  height: 304px;
   text-align: center;
   margin-bottom: 68px;
   overflow: hidden;
@@ -186,9 +191,8 @@
   font-family: "MyriadPro-Bold";
   font-size: 20px;
   font-weight: bold;
-  line-height: normal;
+  line-height: 74px;
   letter-spacing: -0.32px;
-  margin: 31px auto;
 }
 .skill__text {
   font-family: "MyriadPro-Regular";
@@ -210,17 +214,21 @@
 }
 
 /* PORTFOLIO */
+.portfolio__wrap {
+  width: 100%;
+  height: 960px;
+}
 .portfolio__gallery {
   display: block;
   position: relative;
   width: 100%;
-  min-height: 780px;
-  margin: 74px auto;
+  min-height: 816px;
+  margin: 48px auto;
   overflow: hidden;
 }
 .portfolio__slides {
   width: 334%;
-  height: 650px;
+  min-height: 650px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -235,7 +243,7 @@
   position: relative;
   width: 400px;
   height: 300px;
-  margin: 25px 80px;
+  margin: 27px 80px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -320,6 +328,9 @@
 }
 .portfolio__slide:hover {
   background-position-y: bottom;
+}
+.portfolio__gallery_switch {
+  display: none;
 }
 .portfolio__slide_controls,
 .portfolio__slide_active {
