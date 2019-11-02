@@ -342,6 +342,7 @@
   left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
+  background: url(../img/icons/Arrow.png) no-repeat 157px center;
 }
 .portfolio__gallery_swtch_1:checked
   ~ .portfolio__slide_controls

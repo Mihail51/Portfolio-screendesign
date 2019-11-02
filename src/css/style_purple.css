@@ -78,5 +78,5 @@
 }
 .portfolio__slide_controls,
 .portfolio__slide_active {
-  background: url(../img/icons/Arrow.png) no-repeat 157px center #9b59b6;
+  background-color: #9b59b6;
 }
