@@ -424,12 +424,34 @@
 .contact__email {
   width: 369px;
   height: 70px;
+  padding: 29px;
   background-color: #e4e8e8;
   border: none;
+  box-sizing: border-box;
+  font-family: "Rokkitt";
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  text-align: left;
+  color: #cecece;
 }
 .contact__comment {
   width: 100%;
   height: 250px;
+  padding: 29px;
   background-color: #e4e8e8;
   border: none;
+  box-sizing: border-box;
+  font-family: "Rokkitt";
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  text-align: left;
+  color: #cecece;
 }
