@@ -243,6 +243,7 @@
   width: 400px;
   height: 300px;
   margin: 27px 80px;
+  filter: opacity(0.5);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -315,11 +316,12 @@
 .portfolio__slide:hover .slide__btn {
   display: block;
 }
-.portfolio__slide:hover .portfolio__image_color {
+/* .portfolio__slide:hover .portfolio__image_color {
   display: none;
-}
+} */
 .portfolio__slide:hover {
   background-position-y: bottom;
+  filter: opacity(1);
 }
 .portfolio__gallery_switch {
   display: none;
