@@ -13,7 +13,8 @@
 .skill__heading_color_purple {
   color: #9b59b6;
 }
-.skill__image_color_purple {
+.skill__image_color_purple,
+.icon__image_color_purple {
   filter: hue-rotate(0);
 }
 
