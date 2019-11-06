@@ -68,10 +68,9 @@
     #9b59b6;
 }
 .slide__line_color_purple {
-  opacity: 0.6;
+  background: rgba(155, 89, 182, 0.59);
 }
-.portfolio__description_color_purple,
-.slide__line_color_purple {
+.portfolio__description_color_purple {
   background: #9b59b6;
 }
 .slide__text_color_purple {
