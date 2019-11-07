@@ -1,20 +1,20 @@
-.header__image_color_purple {
+.header__image_color {
   background: url(../img/header-image-purple.jpg) no-repeat center center
     #e74c3c;
 }
-.list__item_color_purple:hover .item__link {
+.list__item_color:hover .item__link {
   color: #9b59b6;
 }
-.btn_color_purple {
+.btn_color {
   background-color: #9b59b6;
   outline-color: rgba(155, 89, 182, 0.59);
 }
-.headline_color_purple,
-.skill__heading_color_purple {
+.headline_color,
+.skill__heading_color {
   color: #9b59b6;
 }
-.skill__image_color_purple,
-.icon__image_color_purple {
+.skill__image_color,
+.icon__image_color {
   filter: hue-rotate(0);
 }
 
@@ -67,13 +67,13 @@
   background: url(../img/portfolio-image4-red.jpg) no-repeat center center
     #9b59b6;
 }
-.slide__line_color_purple {
+.slide__line_color {
   background: rgba(155, 89, 182, 0.59);
 }
-.portfolio__description_color_purple {
+.portfolio__description_color {
   background: #9b59b6;
 }
-.slide__text_color_purple {
+.slide__text_color {
   color: #6b3f7d;
 }
 .portfolio__slide_controls,
@@ -81,9 +81,9 @@
   background-color: #9b59b6;
 }
 /* FOOTER */
-.footer__wrap_color_purple {
+.footer__wrap_color {
   background-color: #9b59b6;
 }
-.icon_color_purple {
+.icon_color {
   outline-color: rgba(155, 89, 182, 0.59);
 }
