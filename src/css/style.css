@@ -465,20 +465,20 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.box_color {
+/* .box_color {
   width: 100px;
   height: 100px;
   padding: 6px;
   box-sizing: border-box;
   background-color: rgba(155, 89, 182, 0.59);
-}
+} */
 .footer__icon {
   position: relative;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 88px;
+  height: 88px;
   background-color: #f6f6f6;
-  z-index: 10;
+  outline: 6px solid;
 }
 .icon__image {
   position: absolute;

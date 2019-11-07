@@ -84,3 +84,6 @@
 .footer__wrap_color_purple {
   background-color: #9b59b6;
 }
+.icon_color_purple {
+  outline-color: rgba(155, 89, 182, 0.59);
+}
