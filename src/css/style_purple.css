@@ -15,7 +15,7 @@
 }
 .skill__image_color,
 .icon__image_color {
-  filter: hue-rotate(0);
+  filter: hue-rotate(283deg) saturate(51%) opacity(0.71);
 }
 
 /* PORTFOLIO */
