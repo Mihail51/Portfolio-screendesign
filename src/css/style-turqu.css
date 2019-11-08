@@ -1,0 +1,89 @@
+.header__image_color {
+  background: url(../img/header-image-turquoise.jpg) no-repeat center center
+    #e74c3c;
+}
+.list__item_color:hover .item__link {
+  color: #1abc9c;
+}
+.btn_color {
+  background-color: #1abc9c;
+  outline-color: rgba(26, 188, 156, 0.59);
+}
+.headline_color,
+.skill__heading_color {
+  color: #1abc9c;
+}
+.skill__image_color,
+.icon__image_color {
+  filter: hue-rotate(0);
+}
+
+/* PORTFOLIO */
+.portfolio__slide_nomber_1 {
+  background: url(../img/portfolio-image1-purple.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_2 {
+  background: url(../img/portfolio-image2-purple.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_3 {
+  background: url(../img/portfolio-image1-turquoise.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_4 {
+  background: url(../img/portfolio-image2-turquoise.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_5 {
+  background: url(../img/portfolio-image1-red.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_6 {
+  background: url(../img/portfolio-image1-red.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_7 {
+  background: url(../img/portfolio-image3-purple.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_8 {
+  background: url(../img/portfolio-image4-purple.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_9 {
+  background: url(../img/portfolio-image3-turquoise.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_10 {
+  background: url(../img/portfolio-image4-turquoise.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_11 {
+  background: url(../img/portfolio-image3-red.jpg) no-repeat center center
+    #e74c3c;
+}
+.portfolio__slide_nomber_12 {
+  background: url(../img/portfolio-image4-red.jpg) no-repeat center center
+    #e74c3c;
+}
+.slide__line_color {
+  background: rgba(26, 188, 156, 0.59);
+}
+.portfolio__description_color {
+  background: #1abc9c;
+}
+.slide__text_color {
+  color: #297465;
+}
+.portfolio__slide_controls,
+.portfolio__slide_active {
+  background-color: #1abc9c;
+}
+/* FOOTER */
+.footer__wrap_color {
+  background-color: #1abc9c;
+}
+.icon_color {
+  outline-color: rgba(26, 188, 156, 0.59);
+}
