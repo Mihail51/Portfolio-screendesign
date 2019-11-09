@@ -1,6 +1,7 @@
 .header__image_color {
   background: url(../img/header-image-purple.jpg) no-repeat center center
     #e74c3c;
+  background-size: cover;
 }
 .list__item_color:hover .item__link {
   color: #9b59b6;
