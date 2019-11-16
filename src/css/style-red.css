@@ -15,6 +15,7 @@
 }
 .skill__image_color,
 .icon__image_color {
+  -webkit-filter: hue-rotate(6deg) saturate(91%) opacity(0.74);
   filter: hue-rotate(6deg) saturate(91%) opacity(0.74);
 }
 
