@@ -152,6 +152,9 @@
   text-align: center;
   text-transform: uppercase;
 }
+.descr {
+  width: 100% !important;
+}
 .introduction__description {
   font-family: "MyriadPro-Regular";
   font-size: 18px;
@@ -179,10 +182,10 @@
 }
 .radio input {
   display: none;
-}
+} /*
 .radio {
   display: flex;
-}
+}  */
 .radio span {
   display: block;
   width: 255px;
@@ -197,6 +200,9 @@
 .radio input:checked + span {
   width: 100%;
   height: 100%;
+  order: -1;
+}
+.radio input:checked + .introduction__skills .radio {
   order: -1;
 }
 .skill__heading {
