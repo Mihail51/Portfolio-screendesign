@@ -14,10 +14,19 @@
 .skill__heading_color {
   color: #1abc9c;
 }
+.sketching,
+.design,
+.finalise,
+.dribbble,
+.fb, 
+.twitter {
+  fill: #1abc9c;
+}
+/*
 .skill__image_color,
 .icon__image_color {
   filter: hue-rotate(168deg) saturate(100%) opacity(0.5);
-}
+}  */
 
 /* PORTFOLIO */
 .portfolio__slide_nomber_1 {
