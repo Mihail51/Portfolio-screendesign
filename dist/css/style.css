@@ -33,6 +33,18 @@
   height: 280px;
 }
 
+.theme-button-turqu {
+  color: #fff;
+  background-color: #1abc9c;
+}
+.theme-button-red {
+  color: #fff;
+  background-color: #e74c3c;
+}
+.theme-button-purple {
+  color: #fff;
+  background-color: #9b59b6;
+}
 .image__color {
   position: absolute;
   background: #e0b7b5;

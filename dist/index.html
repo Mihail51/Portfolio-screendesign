@@ -28,7 +28,7 @@
           <li class="list__item list__item_color"><a href="#about-me" class="item__link">ABOUT ME</a></li>
           <li class="list__item list__item_color"><a href="#portfolio" class="item__link">WORK</a></li>
           <li class="list__item list__item_color"><a href="#contact" class="item__link">CONTACT</a></li>
-          <li class="list__item list__item_color"><button class="theme-button">Change Theme</button></li>
+          <li class="list__item list__item_color"><button class="theme-button-turqu">Turqu</button><button class="theme-button-red">Red</button><button class="theme-button-purple">purple</button></li>
         </ul>
       </nav>
       <div class="conteiner conteiner_small conteiner_small_header">
@@ -308,6 +308,36 @@
       </div>
     </div>
   </footer>
+
+
+<script tipe="text/javascript">
+  
+  let page = document.querySelector('.page');
+  let themeButtonTurqu = document.querySelector('.theme-button-turqu');
+  let themeButtonRed = document.querySelector('.theme-button-red');
+  let themeButtonPurple = document.querySelector('.theme-button-purple');
+
+  themeButtonTurqu.onclick = function() {
+    console.log('Кнопка нажата');
+    page.classList.remove('page__theme_purple');
+    page.classList.remove('page__theme_red');
+    page.classList.add('page__theme_turqu');
+  }
+  themeButtonRed.onclick = function() {
+    console.log('Кнопка нажата');
+    page.classList.remove('page__theme_purple');
+    page.classList.remove('page__theme_turqu');
+    page.classList.add('page__theme_red');
+  }
+  themeButtonPurple.onclick = function() {
+    console.log('Кнопка нажата');
+    page.classList.remove('page__theme_turqu');
+    page.classList.remove('page__theme_red');
+    page.classList.add('page__theme_purple');
+  }
+  
+</script>
+
 </body>
 
 </html>
