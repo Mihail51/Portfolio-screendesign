@@ -1,89 +1,89 @@
-.header__image_color {
+.page__theme_red .header__image_color {
   background: url(../img/header-image-red.jpg) no-repeat center center #e74c3c;
   background-size: cover;
 }
-.list__item_color:hover .item__link {
+.page__theme_red .list__item_color:hover .item__link {
   color: #e74c3c;
 }
-.btn_color {
+.page__theme_red .btn_color {
   background-color: #e74c3c;
   outline-color: rgba(231, 76, 60, 0.59);
 }
-.headline_color,
-.skill__heading_color {
+.page__theme_red .headline_color,
+.page__theme_red .skill__heading_color {
   color: #e74c3c;
 }
-.skill__image_color,
-.icon__image_color {
+.page__theme_red .skill__image_color,
+.page__theme_red .icon__image_color {
   filter: hue-rotate(6deg) saturate(91%) opacity(0.74);
 }
 
 /* PORTFOLIO */
-.portfolio__slide_nomber_1 {
+.page__theme_red .portfolio__slide_nomber_1 {
   background: url(../img/portfolio-image1-purple.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_2 {
+.page__theme_red .portfolio__slide_nomber_2 {
   background: url(../img/portfolio-image2-purple.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_3 {
+.page__theme_red .portfolio__slide_nomber_3 {
   background: url(../img/portfolio-image1-turquoise.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_4 {
+.page__theme_red .portfolio__slide_nomber_4 {
   background: url(../img/portfolio-image2-turquoise.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_5 {
+.page__theme_red .portfolio__slide_nomber_5 {
   background: url(../img/portfolio-image1-red.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_6 {
+.page__theme_red .portfolio__slide_nomber_6 {
   background: url(../img/portfolio-image2-red.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_7 {
+.page__theme_red .portfolio__slide_nomber_7 {
   background: url(../img/portfolio-image3-purple.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_8 {
+.page__theme_red .portfolio__slide_nomber_8 {
   background: url(../img/portfolio-image4-purple.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_9 {
+.page__theme_red .portfolio__slide_nomber_9 {
   background: url(../img/portfolio-image3-turquoise.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_10 {
+.page__theme_red .portfolio__slide_nomber_10 {
   background: url(../img/portfolio-image4-turquoise.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_11 {
+.page__theme_red .portfolio__slide_nomber_11 {
   background: url(../img/portfolio-image3-red.jpg) no-repeat center center
     #9b59b6;
 }
-.portfolio__slide_nomber_12 {
+.page__theme_red .portfolio__slide_nomber_12 {
   background: url(../img/portfolio-image4-red.jpg) no-repeat center center
     #9b59b6;
 }
-.slide__line_color {
+.page__theme_red .slide__line_color {
   background: rgba(231, 76, 60, 0.59);
 }
-.portfolio__description_color {
+.page__theme_red .portfolio__description_color {
   background: #e74c3c;
 }
-.slide__text_color {
+.page__theme_red .slide__text_color {
   color: #6b3f7d;
 }
-.portfolio__slide_controls,
-.portfolio__slide_active {
+.page__theme_red .portfolio__slide_controls,
+.page__theme_red .portfolio__slide_active {
   background-color: #e74c3c;
 }
 /* FOOTER */
-.footer__wrap_color {
+.page__theme_red .footer__wrap_color {
   background-color: #e74c3c;
 }
-.icon_color {
+.page__theme_red .icon_color {
   outline-color: rgba(231, 76, 60, 0.59);
 }
